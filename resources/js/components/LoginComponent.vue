@@ -32,6 +32,7 @@
               <v-card-actions>
                 <v-spacer></v-spacer>
                 <v-btn color="primary">Login</v-btn>
+                <v-icon large color="green darken-2">business</v-icon> 
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -101,7 +102,6 @@ export default {
   },
 
   data: () => ({
-    drawer: null,
     password: "",
     email: ""
   }),

@@ -1,4 +1,4 @@
-// import '@mdi/font/css/materialdesignicons.css'
+import '@mdi/font/css/materialdesignicons.css'
 import Vue from 'vue'
 import Vuetify, {
     VCard,
@@ -15,7 +15,8 @@ import Vuetify, {
     VRating,
     VToolbar,
     VCardActions,
-    VBtn
+    VBtn,
+    VIcon
 } from 'vuetify/lib'
 import {
     Ripple
@@ -38,6 +39,7 @@ Vue.use(Vuetify, {
         VTextField,
         VCardActions,
         VBtn,
+        VIcon
 
     },
     directives: {
@@ -47,6 +49,6 @@ Vue.use(Vuetify, {
 
 export default new Vuetify({
     icons: {
-        // iconfont: 'mdi', // default - only for display purposes
+        iconfont: 'mdi'
     }
 })

@@ -4,7 +4,6 @@ window.Vue = require('vue');
 import Vue from 'vue'
 import vuetify from './plugins/vuetify' // path to vuetify export
 
-
 import store from './store/index';
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
