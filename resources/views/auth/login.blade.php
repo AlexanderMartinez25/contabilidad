@@ -67,6 +67,8 @@
                     </form>
                 </div>
             </div>
+
+            <login-form></login-form>
         </div>
     </div>
 </div>

@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('auth/login');
-});
+Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
 Route::post('/submit', 'Auth\LoginController@logIn');
 
 
