@@ -1,4 +1,4 @@
-import '@mdi/font/css/materialdesignicons.css'
+// import '@mdi/font/css/materialdesignicons.css'
 import Vue from 'vue'
 import Vuetify, {
     VCard,
@@ -48,7 +48,7 @@ Vue.use(Vuetify, {
 })
 
 export default new Vuetify({
-    icons: {
-        iconfont: 'mdi'
-    }
+    // icons: {
+    //     iconfont: 'mdi'
+    // }
 })

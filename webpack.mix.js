@@ -12,26 +12,4 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    // .webpackConfig({
-    //     rules: [{
-    //         test: /\.s(c|a)ss$/,
-    //         use: [
-    //             'vue-style-loader',
-    //             'css-loader',
-    //             {
-    //                 loader: 'sass-loader',
-    //                 options: {
-    //                     implementation: require('sass'),
-    //                     fiber: require('fibers'),
-    //                     indentedSyntax: true // optional
-    //                 }
-    //             }
-    //         ]
-    //     }],
-    //     resolve: {
-    //         alias: {
-    //             '@': path.resolve('resources/assets/sass')
-    //         }
-    //     }
-    // })
     .sass('resources/sass/app.scss', 'public/css');
